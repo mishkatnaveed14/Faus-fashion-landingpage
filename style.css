@@ -1,0 +1,62 @@
+.card1:hover {
+    background-color: #475ffa;
+    border-radius: 20px;
+    padding: 10px 30px !important;
+}
+
+.card1:hover p,
+.card1:hover a {
+    color: white !important;
+
+}
+
+.carousel {
+    position: relative;
+    width: 300px;
+    /* apne hisab se */
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100px;
+    /* har item ka width */
+    margin-right: 10px;
+}
+
+.card {
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-content .number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #2945FF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carousel-prev {
+    left: 0;
+}
+
+.carousel-next {
+    right: 0;
+}

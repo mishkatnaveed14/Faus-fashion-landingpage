@@ -1,0 +1,48 @@
+@media only screen and (max-width: 992px) {
+    .hero-con {
+        flex-direction: column !important;
+    }
+
+    .hero-container1 {
+        text-align: center;
+        margin: auto !important;
+        width: auto !important;
+    }
+
+    .hero-container1 p {
+        padding: 0 !important;
+    }
+
+    .hero-container2 {
+        margin: auto !important;
+    }
+
+    .button {
+        display: block;
+        margin: auto !important;
+    }
+
+    .button:hover {
+        background-color: #010860 !important;
+        color: white !important;
+        font-weight: 600;
+    }
+
+    .section1-container {
+        flex-direction: column !important;
+    }
+
+    .section1-container-1 {
+        margin-top: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .mini-img {
+        display: none !important;
+    }
+
+    .section1-container-1 img {
+        margin: auto !important;
+    }
+}
